@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PDF Assistant Project Details</title>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+
+      body {
+        background: #f8f9fa;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        color: #333;
+      }
+
+      #wrapper {
+        max-width: 1100px;
+        background: #ffffff;
+        margin: 3em auto;
+        padding: 3em;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+      }
+
+      h2,
+      h3 {
+        font-weight: 700;
+        color: #1a1a1a;
+      }
+
+      /* Back Link - Modern Style */
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5em;
+        padding: 0.75em 1.5em;
+        margin-bottom: 2.5em;
+        background: linear-gradient(135deg, #8800ff 0%, #764ba2 100%);
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 0.95em;
+        text-decoration: none;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(136, 0, 255, 0.3);
+        transition: all 0.3s ease;
+      }
+
+      .back-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(136, 0, 255, 0.4);
+        background: linear-gradient(135deg, #8800ff 0%, #667eea 100%);
+      }
+
+      .back-link:before {
+        content: "←";
+        font-size: 1.2em;
+      }
+
+      /* Project Header - Enhanced */
+      header.major {
+        text-align: center;
+        margin-bottom: 4em;
+        padding: 2em 0;
+        border-bottom: 2px solid #e9ecef;
+      }
+
+      header.major h2 {
+        font-size: 2.8em;
+        font-weight: 800;
+        background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 0.5em;
+        letter-spacing: -0.02em;
+      }
+
+      header.major p {
+        font-size: 1.15em;
+        color: #6c757d;
+        line-height: 1.7;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      /* Feature Showcase Rows */
+      .feature-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5em;
+        gap: 3em;
+        padding: 2em 0;
+        border-bottom: 1px solid #e9ecef;
+      }
+
+      .feature-row:last-child {
+        border-bottom: none;
+      }
+
+      .feature-row:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+
+      /* Image and Text Containers */
+      .image-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+      }
+
+      .text-container {
+        flex: 1;
+      }
+
+      img {
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .text-container h3 {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+      }
+
+      .text-container p {
+        color: #495057;
+        line-height: 1.6;
+      }
+
+      /* Responsive Design for Mobile */
+      @media (max-width: 768px) {
+        .feature-row,
+        .feature-row:nth-child(even) {
+          flex-direction: column;
+        }
+        #wrapper {
+          padding: 1.5em;
+          margin: 1em;
+        }
+        header.major h2 {
+          font-size: 2em;
+        }
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+    <div id="wrapper">
+      <!-- Back Link -->
+      <a href="index.html" class="back-link">← Back to Main Portfolio</a>
+
+      <!-- Project Header -->
+      <header class="major">
+        <h2>PDF Assistant - AI Powered Learning Tool</h2>
+        <p>
+          An intelligent learning assistant that transforms static PDF documents
+          into interactive study tools. Inspired by the vision of "books that
+          can talk," this application uses LangChain and Gemini AI to enable
+          conversational learning from any PDF document.
+        </p>
+      </header>
+
+      <!-- Feature 1: Conversational Q&A -->
+      <div class="feature-row">
+        <div class="image-container">
+          <img
+            src="images/pdf-assistant/pdf-2.png"
+            alt="Conversational Q&A Feature"
+          />
+        </div>
+        <div class="text-container">
+          <h3>1. Conversational Q&A</h3>
+          <p>
+            Users can ask questions in natural language and receive
+            context-aware answers directly from the PDF content. This feature is
+            powered by a custom-built RAG (Retrieval-Augmented Generation)
+            pipeline using LangChain and the Google Gemini API, ensuring
+            accurate and relevant responses.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 2: Automated MCQ Generation -->
+      <div class="feature-row">
+        <div class="image-container">
+          <img src="images/pdf-assistant/pdf-3.png" alt="MCQ Generation" />
+        </div>
+        <div class="text-container">
+          <h3>2. Automated MCQ Generation</h3>
+          <p>
+            To enhance learning and self-assessment, the PDF_Assistant can
+            automatically generate multiple-choice questions based on the
+            document's content. This allows users to test their knowledge and
+            reinforce key concepts in an engaging way.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 3: Personalized Study Planning -->
+      <div class="feature-row">
+        <div class="image-container">
+          <img src="images/pdf-assistant/pdf-1.png" alt="Study Plan Feature" />
+        </div>
+        <div class="text-container">
+          <h3>3. Personalized Study Planning</h3>
+          <p>
+            The application can analyze a document and generate a customized,
+            week-long study plan. This helps users break down complex topics
+            into manageable daily goals, making their study sessions more
+            structured and effective.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

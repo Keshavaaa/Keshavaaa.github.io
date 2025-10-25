@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keshav Agarwal</title>
+    <meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+	<style>
+	/* Load Centaur Font */
+	@font-face {
+    font-family: 'Centaur';
+    src: url('fonts/centaur-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    /* Change Icon BACKGROUND Colors (the circles) */
+.icon.accent1,
+.icon.accent2,
+.icon.accent3,
+.icon.accent4,
+.icon.accent5 {
+    color: #ffffff !important; /* Icon symbol color (white) */
+    background-color: #a13dcc !important; /* Circle background color (purple) */
+}
+
+
+
+/* Also change the major icons */
+.icon.major {
+    background-color: #a13dcc !important;
+}
+
+    /* Custom Button Styling - Fixed Centering */
+    .button.primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+        border: none !important;
+        color: #ffffff !important;
+        font-weight: 600 !important;
+        padding: 0.9em 2.5em !important;
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3) !important;
+        transition: all 0.3s ease !important;
+        display: inline-block !important;
+        text-align: center !important;
+        vertical-align: middle !important;
+        line-height: 1.2 !important;
+    }
+    
+    .button.primary:hover {
+        transform: translateY(-2px) !important;
+        box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5) !important;
+        background: linear-gradient(135deg, #764ba2 0%, #667eea 100%) !important;
+    }
+    
+    .button:not(.primary) {
+        background: transparent !important;
+        border: 2px solid #667eea !important;
+        color: #667eea !important;
+        font-weight: 600 !important;
+        padding: 0.9em 2.5em !important;
+        transition: all 0.3s ease !important;
+        display: inline-block !important;
+        text-align: center !important;
+        vertical-align: middle !important;
+        line-height: 1.2 !important;
+    }
+    
+    .button:not(.primary):hover {
+        background: #667eea !important;
+        color: #ffffff !important;
+        transform: translateY(-2px) !important;
+    }
+    
+    /* Replace ALL Default Green Colors with Cyan (#80F) */
+    a {
+        color: #a13dcc !important;
+    }
+    
+    a:hover {
+        color: #a13dcc!important;
+    }
+    
+    
+    /* Navigation Active State */
+    #nav ul li a.active {
+        background: rgba(136, 0, 255, 0.15) !important;
+        color: #a13dcc !important;
+    }
+    
+    /* Form Submit Button */
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button,
+    .button.special {
+        background-color: #8800ff !important;
+        border-color: #8800ff !important;
+    }
+    
+    input[type="submit"]:hover,
+    input[type="reset"]:hover,
+    input[type="button"]:hover,
+    button:hover {
+        background-color: #6600cc !important;
+    }
+	
+html body #header {
+    background: #1a2332 !important; 
+    background-image: none !important;
+}
+
+html body #header:before {
+    background: none !important;  
+}
+
+#nav ul li {
+    border-top: 1px solid rgba(255, 255, 255, 0.3) !important; 
+}
+
+#nav ul li:first-child {
+    border-top: none !important; 
+}
+
+
+html body #header h1 {
+    color: #ffffff !important; /* White color */
+    font-family: 'Centaur', 'Georgia', serif !important; 
+    font-weight: 700 !important; 
+    font-size: 2.2em !important; 
+    letter-spacing: 0.05em !important; 
+}
+
+
+html body #header h1 + p {
+    color: rgba(255, 255, 255, 0.7) !important; 
+}
+
+</style>
+
+</head>
+
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <section id="header">
+      <header>
+        <span class="image avatar"><img src="images/profile pic.png" alt="" /></span>
+        <h1 id="logo"><a href="#">Keshav Agarwal</a></h1>
+        <p>
+          B.Tech in Artificial Intelligence & Data Science<br />
+          Full-Stack AI Engineer | Software Developer
+        </p>
+      </header>
+      <nav id="nav">
+        <ul>
+          <li><a href="#one" class="active">About</a></li>
+          <li><a href="#two">Things I Can Do</a></li>
+          <li><a href="#three">A Few Accomplishments</a></li>
+          <li><a href="#four">Contact</a></li>
+        </ul>
+      </nav>
+      <footer>
+        <ul class="icons">
+		  <li>
+			<a
+			  href="https://www.linkedin.com/in/keshavaa001"
+			  class="icon brands fa-linkedin-in"
+			  ><span class="label">LinkedIn</span></a
+			>
+          <li>
+            <a href="https://github.com/Keshavaaa" class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a href="mailto:keshava0151@gmail.com" class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+      </footer>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one">
+          <div class="container">
+            <header class="major">
+              <h2>About Me</h2>
+              <p>
+                Full-Stack AI Engineer with End-to-End Development Experience
+              </p>
+            </header>
+            <p>
+              B.Tech graduate in Artificial Intelligence & Data Science, specializing in building complete applications that
+              integrate AI/ML with seamless user experiences. From developing
+              AI-powered mobile apps to creating intelligent learning tools with
+              LangChain, I take a full-stack approach - handling frontend,
+              backend, UI/UX design, database optimization, and advanced AI
+              integration. My expertise comes from hands-on project work where
+              I've independently built production-ready applications from
+              concept to deployment, solving real technical challenges along the
+              way.
+            </p>
+          </div>
+        </section>
+
+        <section id="two">
+          <div class="container">
+            <h3>Technical Skills</h3>
+            <p>
+              My technical skill set spans the entire development stack - from
+              designing intuitive user interfaces to implementing complex AI
+              models and optimizing database performance. Here's what I bring to
+              every project:
+            </p>
+
+            <ul class="feature-icons">
+              <li class="icon solid fa-brain">
+                Deep Learning & Neural Networks
+              </li>
+              <li class="icon solid fa-robot">Machine Learning & AI Models</li>
+              <li class="icon solid fa-code">
+                Full-Stack Development (Frontend + Backend)
+              </li>
+              <li class="icon solid fa-mobile-alt">Mobile App Development</li>
+              <li class="icon solid fa-brain">
+                AI/ML Integration & Prompt Engineering
+              </li>
+              <li class="icon solid fa-database">
+                Database Design & Optimization (SQLite)
+              </li>
+              <li class="icon solid fa-palette">
+                UI/UX Design & Implementation
+              </li>
+              <li class="icon solid fa-cogs">
+                System Architecture & Problem Solving
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Three -->
+        <section id="three">
+          <div class="container">
+            <h3>A Few Accomplishments</h3>
+            <p>
+              Passionate about building innovative AI solutions that solve real-world problems. 
+			  From mobile applications to intelligent learning tools, I bring ideas to life through clean code and thoughtful design.
+
+            </p>
+            <div class="features">
+              <article>
+                <a href="#" class="image"
+                  ><img
+                    src="images/almari/splash.png"
+                    alt="aLMARi - Wardrobe Management App"
+                /></a>
+                <div class="inner">
+                  <h4>aLMARi - AI-Powered Digital Wardrobe</h4>
+                  <p>
+                    <strong
+                      >React Native • Google Gemini API • SQLite • Computer
+                      Vision</strong
+                    >
+                  </p>
+                  <p>
+                    Full-stack mobile application that helps users organize
+                    their wardrobe with AI-powered clothing analysis, outfit
+                    recommendations, and weekly planning. Built to solve my own
+                    daily clothing selection confusion, this app demonstrates
+                    end-to-end mobile development with advanced AI integration.
+                  </p>
+
+                  <p><strong>Core Features Built:</strong></p>
+                  <ul>
+                    <li>
+                      AI clothing recognition using Google's Gemini API with
+                      custom prompt engineering
+                    </li>
+                    <li>
+                      Automatic background removal and image compression
+                      pipeline
+                    </li>
+                    <li>
+                      Color extraction using ColorThief library for smart
+                      categorization
+                    </li>
+                    <li>
+                      Outfit calendar with weather-aware scheduling and
+                      recommendations
+                    </li>
+                    <li>
+                      Laundry tracking system with favorites and usage analytics
+                    </li>
+                    <li>
+                      Local SQLite database with optimized storage for
+                      privacy-first design
+                    </li>
+                  </ul>
+
+                  <p>
+                    <strong>Technical Challenges Overcome:</strong> Resolved
+                    SQLite CursorWindow overflow errors through base64
+                    optimization, implemented multi-stage image processing
+                    workflow (removal → compression → analysis), designed
+                    complete React Native architecture with Expo Router
+                    navigation, and integrated real-time AI processing.
+                  </p>
+
+                  <ul class="actions">
+                    <li>
+                      <a href="almari-details.html" class="button primary"
+                        >View Project Details</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/yourusername/almari"
+                        class="button"
+                        target="_blank"
+                        >View on GitHub</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </article>
+
+              <article>
+                <a href="#" class="image"
+                  ><img src="images/pdf-assistant/PDF.png" alt="PDF Assistant"
+                /></a>
+                <div class="inner">
+                  <h4>PDF Assistant - AI Powered Learning Tool</h4>
+                  <p>
+                    <strong
+                      >Python • LangChain • Streamlit • Google Gemini API • RAG
+                      Pipeline</strong
+                    >
+                  </p>
+                  <p>
+                    Intelligent learning assistant that transforms static PDF
+                    documents into interactive study tools. Inspired by the
+                    vision of "books that can talk," this application uses
+                    LangChain and Gemini AI to enable conversational learning
+                    from any PDF document.
+                  </p>
+
+                  <p><strong>Core Features Built:</strong></p>
+                  <ul>
+                    <li>
+                      Conversational Q&A based on PDF content with context
+                      retention
+                    </li>
+                    <li>
+                      Automated MCQ generation for self-assessment and practice
+                    </li>
+                    <li>
+                      Personalized weekly study schedule creation based on
+                      document analysis
+                    </li>
+                    <li>Document summarization for quick content overview</li>
+                    <li>
+                      Complete RAG (Retrieval-Augmented Generation) pipeline
+                      implementation
+                    </li>
+                  </ul>
+
+                  <p>
+                    <strong>Technologies:</strong> Python, Streamlit, LangChain,
+                    PyPDF2, Google Gemini API, prompt engineering, document
+                    chunking strategies
+                  </p>
+
+                  <p>
+                    <strong>Technical Highlights:</strong> Developed specialized
+                    prompts for three distinct functions (Q&A, MCQ generation,
+                    study planning), implemented efficient document processing
+                    and chunking, built complete RAG pipeline from scratch using
+                    LangChain framework, and designed user-friendly Streamlit
+                    interface for seamless interaction.
+                  </p>
+
+                  <ul class="actions">
+                    <li>
+                      <a href="pdf-details.html" class="button primary"
+                        >View Project Details</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/Keshavaaa/PDF_Assistant"
+                        class="button"
+                        target="_blank"
+                        >View on GitHub</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </article>
+
+            
+        <!-- Four -->
+        <section id="four">
+    <div class="container">
+        <h3>Contact Me</h3>
+        <p>Let's connect! Whether you're interested in collaboration,
+		   have questions about my projects, or want to discuss opportunities in AI and software development, I'd love to hear from you.</p>
+
+            <div class="container">
+    <!-- Social Icons -->
+    <ul class="icons">
+        <li><a href="https://github.com/Keshavaaa" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+        <li><a href="https://www.linkedin.com/in/keshavaa001" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+        <li><a href="mailto:keshava0151@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+    </ul>
+</div>
+      <!-- Footer -->
+      <section id="footer">
+        <div class="container">
+          <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

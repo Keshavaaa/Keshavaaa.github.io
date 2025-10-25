@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>aLMARi Project Details</title>
+    <meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      /* ---- Enhanced Professional Styling ---- */
+
+      /* Typography and Colors */
+      body {
+        background: #f8f9fa; /* Lighter, cleaner background */
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        color: #333;
+      }
+
+      #wrapper {
+        max-width: 1100px;
+        background: #ffffff;
+        margin: 3em auto;
+        padding: 3em;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* Softer, more modern shadow */
+        border-radius: 12px; /* Softer corners */
+      }
+
+      h2,
+      h3 {
+        font-weight: 700;
+        color: #1a1a1a;
+      }
+
+      /* Back Link - Modern Style */
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5em;
+        padding: 0.75em 1.5em;
+        margin-bottom: 2.5em;
+        background: linear-gradient(135deg, #80f 0%, #764ba2 100%);
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 0.95em;
+        text-decoration: none;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        transition: all 0.3s ease;
+      }
+
+      .back-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        background: linear-gradient(135deg, #80f 0%, #667eea 100%);
+      }
+
+      .back-link:before {
+        content: "←";
+        font-size: 1.2em;
+      }
+
+      /* Project Header - Enhanced */
+      header.major {
+        text-align: center;
+        margin-bottom: 4em;
+        padding: 2em 0;
+        border-bottom: 2px solid #e9ecef;
+      }
+
+      header.major h2 {
+        font-size: 2.8em;
+        font-weight: 800;
+        background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 0.5em;
+        letter-spacing: -0.02em;
+      }
+
+      header.major p {
+        font-size: 1.15em;
+        color: #6c757d;
+        line-height: 1.7;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      /* Feature Showcase Rows */
+      .feature-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5em;
+        gap: 3em;
+        padding: 2em 0;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .feature-row:last-child {
+        border-bottom: none;
+      }
+      .feature-row:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+
+      /* Video and Text Containers */
+      .video-container {
+        flex: 1;
+        display: flex;
+        justify-content: center; /* Centers the video */
+      }
+
+      .text-container {
+        flex: 1;
+      }
+      video {
+        max-width: 340px;
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .text-container h3 {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+      }
+      .text-container p {
+        color: #495057;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 768px) {
+        .feature-row,
+        .feature-row:nth-child(even) {
+          flex-direction: column;
+        }
+        #wrapper {
+          padding: 1.5em;
+          margin: 1em;
+        }
+        header.major h2 {
+          font-size: 2em;
+        }
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Back Link -->
+      <a href="index.html" class="back-link">&larr; Back to Main Portfolio</a>
+
+      <!-- Project Header -->
+      <header class="major">
+        <h2>aLMARi - AI-Powered Digital Wardrobe</h2>
+        <p>
+          A full-stack mobile application built from the ground up to solve the
+          daily challenge of choosing an outfit. This project showcases
+          end-to-end development, from UI/UX design in React Native to a
+          complex, privacy-first AI backend running on-device.
+        </p>
+      </header>
+
+      <!-- Feature 1: Splash Screen & Onboarding -->
+      <div class="feature-row">
+        <div class="video-container">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            src="videos/splash_screen.mp4"
+          ></video>
+        </div>
+        <div class="text-container">
+          <h3>1. Professional Onboarding</h3>
+          <p>
+            A clean, animated splash screen provides a professional first
+            impression, leading into a simple onboarding flow that guides the
+            user.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 2: Upload & AI Analysis -->
+      <div class="feature-row">
+        <div class="video-container">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            src="videos/upload-processing-save.mp4"
+          ></video>
+        </div>
+        <div class="text-container">
+          <h3>2. AI-Powered Clothing Analysis</h3>
+          <p>
+            Users can upload a photo of a clothing item. The app automatically
+            removes the background, extracts dominant colors using ColorThief,
+            and sends the processed image to the Google Gemini API for
+            categorization and description, all orchestrated through custom
+            prompt engineering.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 3: The Digital Wardrobe -->
+      <div class="feature-row">
+        <div class="video-container">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            src="videos/wardrobe_page.mp4"
+          ></video>
+        </div>
+        <div class="text-container">
+          <h3>3. Interactive Wardrobe</h3>
+          <p>
+            All clothing items are displayed in a clean grid. Users can filter
+            by category, color, or status (e.g., in laundry). All data is stored
+            locally in an SQLite database for fast, offline, and private access.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 4: Item Details & Actions -->
+      <div class="feature-row">
+        <div class="video-container">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            src="videos/item_screen.mp4"
+          ></video>
+        </div>
+        <div class="text-container">
+          <h3>4. Detailed Item Management</h3>
+          <p>
+            Each item has a detailed screen showing its category, color,
+            description, and usage history. From here, users can add items to
+            the laundry, edit details, or delete them from their wardrobe.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 5: AI Outfit Recommendations -->
+      <div class="feature-row">
+        <div class="video-container">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            src="videos/home_page.mp4"
+          ></video>
+        </div>
+        <div class="text-container">
+          <h3>5. Smart Outfit Recommendations</h3>
+          <p>
+            The home page dashboard features AI-generated outfit suggestions.
+            The model considers the user's existing wardrobe and the local
+            weather to propose a suitable and stylish combination for the day.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 6: Calendar & Outfit Planning -->
+      <div class="feature-row">
+        <div class="video-container">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            src="videos/calendar.mp4"
+          ></video>
+        </div>
+        <div class="text-container">
+          <h3>6. Outfit Scheduling Calendar</h3>
+          <p>
+            A fully functional calendar allows users to plan their outfits for
+            days or weeks in advance, helping to streamline their morning
+            routine. Scheduled outfits are displayed visually on the calendar.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 7: Profile & Stats -->
+      <div class="feature-row">
+        <div class="video-container">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            src="videos/profile_page.mp4"
+          ></video>
+        </div>
+        <div class="text-container">
+          <h3>7. User Profile and Analytics</h3>
+          <p>
+            The profile screen gives users an overview of their wardrobe
+            statistics, such as the total number of items, most-worn pieces, and
+            items currently in the laundry, providing useful insights into their
+            clothing usage.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
